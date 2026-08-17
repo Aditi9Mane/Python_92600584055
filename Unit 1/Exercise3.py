@@ -1,0 +1,23 @@
+#arithmetic relational and logical operations
+
+print("Arithmetic Operations")
+a = int(input("Enter a num1 of choice: "))
+b = int(input("Enter a num2 of choice: "))
+
+print(f"{a} + {b} = ",a+b)
+print(f"{a} - {b} = ",a-b)
+print(f"{a} / {b} = ",a/b)
+print(f"{a} * {b} = ",a*b)
+print(f"{a} // {b} = ",a//b)
+print()
+print("Relational Operators")
+print(f"{a} > {b} : ", a > b)
+print(f"{a} < {b} : ", a < b)
+print(f"{a} == {b} : ", a == b)
+print(f"{a} != {b} : ", a != b)
+print()
+print("Logical Operators")
+print(f"{a} > {b} and {a} <{b}: ", (a > b) and (a < b))
+print(f"{a} > {b} or {a} < {b}: ", (a > b) or (a < b))
+print(f"{a} > {b} and {a} < {b}: ", not (a > b) and (a < b))
+print(f"{a} > {b} nor {a} < {b}: ", not (a > b) or (a < b))
